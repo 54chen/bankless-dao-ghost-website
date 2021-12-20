@@ -57,7 +57,7 @@ export default function Navbar() {
             <Link href="/" style={{ boxShadow: 'none' }} display="inline-block">
               <Image
                 style={{ boxShadow: 'none' }}
-                src="/images/bankless-logo.png"
+                src="/images/bankless-logo-cn.png"
                 alt="Bankless"
                 maxW="300px"
                 maxH="60px"
@@ -88,19 +88,19 @@ export default function Navbar() {
                 <DrawerBody paddingTop="4">
                   <List spacing="2" fontWeight="bold" fontFamily="spartan">
                     <ListItem>
-                      <Link href="/">Home</Link>
+                      <Link href="/">首页</Link>
                     </ListItem>
                     <ListItem>
-                      <Link href="/guilds">Guilds</Link>
+                      <Link href="/guilds">公会</Link>
                     </ListItem>
                     <ListItem>
-                      <Link href="/contribute">Contribute</Link>
+                      <Link href="/contribute">贡献</Link>
                     </ListItem>
                     <ListItem>
-                      <Link href="/bed-index">BED Index</Link>
+                      <Link href="/bed-index">BED指数</Link>
                     </ListItem>
                     <ListItem display="flex" onClick={onSearchModalOpen}>
-                      <Box marginRight="4">Search</Box>
+                      <Box marginRight="4">搜索</Box>
                       <ListIcon as={Search2Icon} color="white" />
                     </ListItem>
                   </List>
@@ -114,16 +114,16 @@ export default function Navbar() {
           <Flex as="nav">
             <List>
               <ListItem>
-                <Link href="/">Home</Link>
+                <Link href="/">首页</Link>
               </ListItem>
               <ListItem>
-                <Link href="/guilds">Guilds</Link>
+                <Link href="/guilds">公会</Link>
               </ListItem>
               <ListItem>
-                <Link href="/contribute">Contribute</Link>
+                <Link href="/contribute">贡献</Link>
               </ListItem>
               <ListItem>
-                <Link href="/bed-index">BED Index</Link>
+                <Link href="/bed-index">BED指数</Link>
               </ListItem>
             </List>
             <List>

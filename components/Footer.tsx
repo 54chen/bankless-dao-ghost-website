@@ -17,13 +17,11 @@ export default function Footer(): JSX.Element {
         <Box className="footer-data">
           <Box className="footer-logo">
             <Link className="is-image" href="/">
-              <Image src="/images/bankless-logo.png" alt="Bankless DAO logo" />
+              <Image src="/images/bankless-logo-cn.png" alt="Bankless DAO logo" />
             </Link>
           </Box>
           <Text className="footer-description">
-            A decentralized autonomous organization that acts as a steward of
-            the Bankless Movement progressing the world towards a future of
-            greater freedom.
+            一个DAO，旨在作为无银行运动的代表，促使未来世界向着更大的自由迈进。
           </Text>
           <Box className="footer-icons">
             <SocialIcons />
@@ -79,9 +77,13 @@ export default function Footer(): JSX.Element {
         </HStack>
       </Flex>
       <Box className="footer-copyright">
-        GoBankless &copy; 2021. All Rights Reserved. Published with{' '}
+        BanklessCN &copy; 2021. 版权所有. 发布依赖{' '}
         <Link href="https://ghost.org" target="_blank">
           Ghost
+        </Link>
+        {' '}以及{' '}
+        <Link href="https://www.bankless.community/" target="_blank">
+          Bankless总部
         </Link>
         .
       </Box>
