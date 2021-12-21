@@ -13,7 +13,7 @@ export default function Layout({ children }: LayoutProps) {
     <chakra.div className="global-wrap">
       <chakra.div className="global-content" minW="350px" maxW="100%">
         <Head>
-          <title>Bankless DAO</title>
+          <title>中文频道-BanklessCN</title>
           <meta name="description" content="Bankless DAO community site" />
           <link rel="icon" href="/favicon.ico" />
         </Head>

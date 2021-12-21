@@ -17,12 +17,12 @@ export interface socialLink {
 const SOCIAL: socialLink[] = [
   {
     alt: 'Medium Icon',
-    href: 'https://medium.com/bankless-dao',
+    href: 'https://linktr.ee/BanklessCN',
     src: <Medium />,
   },
   {
     alt: 'Substack Icon',
-    href: 'https://banklessdao.substack.com/',
+    href: 'https://0xbanklesscn.substack.com/',
     src: <Substack />,
   },
   {
@@ -32,7 +32,7 @@ const SOCIAL: socialLink[] = [
   },
   {
     alt: 'Twitter Icon',
-    href: 'https://twitter.com/banklessDAO',
+    href: 'https://twitter.com/BanklessCN',
     src: <Twitter />,
   },
   {

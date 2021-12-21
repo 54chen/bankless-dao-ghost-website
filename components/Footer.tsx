@@ -21,7 +21,7 @@ export default function Footer(): JSX.Element {
             </Link>
           </Box>
           <Text className="footer-description">
-            一个DAO，旨在作为无银行运动的代表，促使未来世界向着更大的自由迈进。
+            Bankless是一个去中心化自治组织，旨在作为无银行运动的代表，促使未来世界向着更大的自由迈进。
           </Text>
           <Box className="footer-icons">
             <SocialIcons />
@@ -33,10 +33,10 @@ export default function Footer(): JSX.Element {
               <Link href="https://discord.gg/bjPz2w9Zts">Discord</Link>
             </ListItem>
             <ListItem className="footer-link">
-              <Link href="https://pro.olympusdao.finance/?utm_source=banklessdao&utm_medium=affiliate&utm_campaign=op-affiliate">
-                Join Olympus Pro
+              <Link href="/multisig">
+                BANK
               </Link>
-              </ListItem>
+            </ListItem>
             <ListItem className="footer-link">
               <Link href="https://www.notion.so/BanklessDAO-Wiki-82ba81e7da1c42adb7c4ab67a4f22e8f">
                 Wiki
@@ -54,23 +54,28 @@ export default function Footer(): JSX.Element {
           </UnorderedList>
           <UnorderedList className="footer-links" mx="0">
             <ListItem className="footer-link">
-              <Link href="/multisig">
-                BANK
+              <Link href="https://linktr.ee/BanklessCN">
+                办公
               </Link>
             </ListItem>
             <ListItem className="footer-link">
-              <Link href="#">
-                Privacy
+              <Link href="https://weibo.com/u/7728092945">
+                微博
+              </Link>
+              </ListItem>
+            <ListItem className="footer-link">
+              <Link href="https://mp.weixin.qq.com/s/zY4Pvhp50_JLv5wlPhXqmw">
+                微信公众号
               </Link>
             </ListItem>
             <ListItem className="footer-link">
-              <Link href="https://github.com/BanklessDAO">
-                Github
+              <Link href="https://twitter.com/BanklessCN">
+                推特
               </Link>
             </ListItem>
             <ListItem className="footer-link">
-              <Link href="https://www.twitch.tv/banklessdao">
-                TwitchTV
+              <Link href="https://0xbanklesscn.substack.com/">
+               substack主站
               </Link>
             </ListItem>
           </UnorderedList>

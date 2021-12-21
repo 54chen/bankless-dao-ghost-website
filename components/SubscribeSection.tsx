@@ -8,9 +8,9 @@ export interface AlertMessages {
 }
 
 export const ALERT_MESSAGES: AlertMessages = {
-  loading: 'Processing your application',
-  success: 'Great! Check your inbox and confirm your subscription',
-  error: 'There was an error sending the email',
+  loading: '处理你的请求中，需要科学上网',
+  success: '不错哦，请自行打开链接 https://0xbanklesscn.substack.com/p/coming-soon',
+  error: '网络有问题，没办法发出去',
 } as const;
 
 const AlertBox = chakra(Box, {
@@ -39,7 +39,7 @@ export default function SubscribeSection() {
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const url = 'https://gobankless.ghost.io/members/api/send-magic-link';
+    const url = 'https://0xbanklesscn.substack.com/p/coming-soon';
 
     const values = {
       email,
@@ -65,7 +65,7 @@ export default function SubscribeSection() {
   return (
     <chakra.div className="subscribe-section">
       <Flex className="subscribe-wrap">
-        <Heading as="h3">Subscribe to new posts.</Heading>
+        <Heading as="h3">通过邮箱订阅最新的文章。</Heading>
         <chakra.form
           as="form"
           className="subscribe-form"
