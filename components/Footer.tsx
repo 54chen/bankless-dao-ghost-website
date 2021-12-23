@@ -78,6 +78,11 @@ export default function Footer(): JSX.Element {
                substack主站
               </Link>
             </ListItem>
+            <ListItem className="footer-link">
+              <Link href="https://space.bilibili.com/16384942">
+               B站
+              </Link>
+            </ListItem>
           </UnorderedList>
         </HStack>
       </Flex>
